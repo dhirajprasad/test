@@ -38,10 +38,16 @@ class Two extends One{
 	}
 }
 
+
 public class App 
 {
     public static void main( String[] args )
     {
+    	MyList myList = new MyList();
+    	myList.add(2);
+    	myList.add(3);
+    	myList.add(312);
+    	System.out.println(myList);
     	Over ov= new Over();
     	Over.m();
     	Over.m(3);
