@@ -25,7 +25,6 @@ public static int[] removeDuplicate(int[] arr){
 		temparr[++pos]=arr[i];
 		}
 	}
-	System.out.println(Arrays.toString(temparr));
 	int[] output=new int[pos+1];
 	for (int i = 0; i <= pos; i++) {
 		output[i]=temparr[i];
