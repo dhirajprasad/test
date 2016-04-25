@@ -1,10 +1,12 @@
 package com.dhiraj.util;
 
+import java.util.Arrays;
+
 
 public class Util {
 	
 public static int[] removeDuplicate(int[] arr){
-	if(arr == null || arr.length==0){
+	if(arr == null || arr.length==0 || !(arr instanceof int[])){
 		throw new IllegalArgumentException("array is null or no elements");
 	}
 	int len=arr.length;
@@ -23,8 +25,9 @@ public static int[] removeDuplicate(int[] arr){
 		temparr[++pos]=arr[i];
 		}
 	}
-	int[] output=new int[pos];
-	for (int i = 0; i < pos; i++) {
+	System.out.println(Arrays.toString(temparr));
+	int[] output=new int[pos+1];
+	for (int i = 0; i <= pos; i++) {
 		output[i]=temparr[i];
 	}
 	return output;
