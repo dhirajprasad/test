@@ -3,7 +3,6 @@ package com.dhiraj.hibe;
 
 /**
  * @author Dhiraj Prasad
- * date:	25-4-16
  *
  */
 public class MyList {
