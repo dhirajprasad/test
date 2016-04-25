@@ -5,6 +5,10 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
+/**
+ * @author Dhiraj 
+ *
+ */
 public class HQLEx {
 	
 public static void join(Session session){
